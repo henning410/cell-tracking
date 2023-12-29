@@ -136,7 +136,7 @@ classdef UI < matlab.apps.AppBase
             app.Image4.Layout.Row = 5;
             app.Image4.Layout.Column = 2;
 
-            % Create LuanaBajerLabel
+            % Create HenningLabel
             app.HenningLabel = uilabel(app.GridLayout);
             app.HenningLabel.HorizontalAlignment = 'right';
             app.HenningLabel.Layout.Row = 6;
